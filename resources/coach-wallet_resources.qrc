@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/users.svg</file>
+        <file>icons/portfolios.svg</file>
+        <file>icons/projects.svg</file>
+        <file>icons/trading.svg</file>
+    </qresource>
+</RCC>
