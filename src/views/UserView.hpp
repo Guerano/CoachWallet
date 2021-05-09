@@ -16,6 +16,15 @@ public:
 
     auto viewIdentifier() const -> QString override;
 
+signals:
+    void finished() override;
+
+public:
+    static auto createIdentifier(User const & user) -> QString;
+
+private:
+    void _setupConnections();
+
 private:
     Ui::UserView * _ui;
 

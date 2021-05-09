@@ -15,6 +15,12 @@ public:
 
     auto viewIdentifier() const -> QString override;
 
+signals:
+    void finished() override;
+
+public:
+    static auto createIdentifier() -> QString;
+
 private:
     Ui::HomeView * _ui;
 };

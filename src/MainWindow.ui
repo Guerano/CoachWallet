@@ -57,7 +57,7 @@
         </property>
        </column>
       </widget>
-      <widget class="QStackedWidget" name="stackedWidget"/>
+      <widget class="CWStackedWidget" name="stackedWidget"/>
      </widget>
     </item>
    </layout>
@@ -79,6 +79,12 @@
    <class>NavigatorTree</class>
    <extends>QTreeWidget</extends>
    <header>src/widgets/NavigatorTree.hpp</header>
+  </customwidget>
+  <customwidget>
+   <class>CWStackedWidget</class>
+   <extends>QStackedWidget</extends>
+   <header>src/widgets/CWStackedWidget.hpp</header>
+   <container>1</container>
   </customwidget>
  </customwidgets>
  <resources/>

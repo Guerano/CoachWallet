@@ -16,5 +16,11 @@ HomeView::~HomeView()
 auto HomeView::viewIdentifier() const
     -> QString
 {
+    return createIdentifier();
+}
+
+auto HomeView::createIdentifier()
+    -> QString
+{
     return "HomeView";
 }
