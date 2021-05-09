@@ -1,14 +1,20 @@
 #include "HomeView.hpp"
 #include "ui_HomeView.h"
 
-HomeView::HomeView(QWidget *parent) :
-    QWidget(parent),
-    ui(new Ui::HomeView)
+HomeView::HomeView(QWidget * parent)
+    : QWidget { parent           }
+    , _ui     { new Ui::HomeView }
 {
-    ui->setupUi(this);
+    _ui->setupUi(this);
 }
 
 HomeView::~HomeView()
 {
-    delete ui;
+    delete _ui;
+}
+
+auto HomeView::viewIdentifier() const
+    -> QString
+{
+    return "HomeView";
 }

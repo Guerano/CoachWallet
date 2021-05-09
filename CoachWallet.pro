@@ -21,6 +21,7 @@ SOURCES += \
 
 HEADERS += \
     src/CoachWalletApplication.hpp \
+    src/IWorkspaceView.hpp \
     src/MainWindow.hpp \
     src/Project.hpp \
     src/User.hpp \
