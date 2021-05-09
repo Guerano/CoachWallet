@@ -7,6 +7,7 @@ INCLUDEPATH += $$_PRO_FILE_PWD_/src/
 SOURCES += \
     src/CoachWalletApplication.cpp \
     src/Project.cpp \
+    src/User.cpp \
     src/main.cpp \
     src/MainWindow.cpp \
     src/utils/Json.cpp \
@@ -20,6 +21,7 @@ HEADERS += \
     src/CoachWalletApplication.hpp \
     src/MainWindow.hpp \
     src/Project.hpp \
+    src/User.hpp \
     src/utils/Json.hpp \
     src/utils/Service.hpp \
     src/utils/ServiceLocator.hpp \
