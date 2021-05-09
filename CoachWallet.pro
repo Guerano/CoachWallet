@@ -14,7 +14,9 @@ SOURCES += \
     src/utils/Singleshot.cpp \
     src/utils/Utility.cpp \
     src/utils/details/JsonImpl.cpp \
+    src/views/HomeView.cpp \
     src/views/UserView.cpp \
+    src/widgets/CWStackedWidget.cpp \
     src/widgets/NavigatorTree.cpp
 
 HEADERS += \
@@ -32,11 +34,14 @@ HEADERS += \
     src/utils/details/JsonImpl.hpp \
     src/utils/details/Singleshot.hpp \
     src/utils/details/StringFormatting.hpp \
+    src/views/HomeView.hpp \
     src/views/UserView.hpp \
+    src/widgets/CWStackedWidget.hpp \
     src/widgets/NavigatorTree.hpp
 
 FORMS += \
     src/MainWindow.ui \
+    src/views/HomeView.ui \
     src/views/UserView.ui
 
 OTHER_FILES += \
