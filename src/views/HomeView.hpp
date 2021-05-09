@@ -1,12 +1,11 @@
 #pragma once
 
+// Project includes
 #include "IWorkspaceView.hpp"
-
-#include <QWidget>
 
 namespace Ui { class HomeView; }
 
-class HomeView : public QWidget, public IWorkspaceView
+class HomeView : public IWorkspaceView
 {
     Q_OBJECT
 

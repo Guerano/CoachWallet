@@ -2,8 +2,8 @@
 #include "ui_HomeView.h"
 
 HomeView::HomeView(QWidget * parent)
-    : QWidget { parent           }
-    , _ui     { new Ui::HomeView }
+    : IWorkspaceView { parent           }
+    , _ui            { new Ui::HomeView }
 {
     _ui->setupUi(this);
 }

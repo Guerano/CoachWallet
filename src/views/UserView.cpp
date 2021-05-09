@@ -4,9 +4,9 @@
 #include "utils/StringFormatting.hpp"
 
 UserView::UserView(User const & user, QWidget * parent)
-    : QWidget { parent           }
-    , _ui     { new Ui::UserView }
-    , _user   { user             }
+    : IWorkspaceView { parent           }
+    , _ui            { new Ui::UserView }
+    , _user          { user             }
 {
     _ui->setupUi(this);
 }
