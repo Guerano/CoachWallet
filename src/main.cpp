@@ -1,10 +1,9 @@
+#include "CoachWalletApplication.hpp"
 #include "MainWindow.hpp"
-
-#include <QApplication>
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
+    CoachWalletApplication a(argc, argv);
     MainWindow w;
     w.show();
     return a.exec();
